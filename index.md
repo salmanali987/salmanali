@@ -216,7 +216,7 @@
               application is developed. Easy to navigate user interface of app helps everyone to understand its flow and
               perofrm action more easily
             </div>
-            <a type="button" class="btn btn-primary" href="https://youtu.be/QZoeo6Lrdg4">Demo of Project
+            <a class="btn btn-primary" href="https://youtu.be/QZoeo6Lrdg4">Demo of Project
               <i class="fab fa-youtube-f"></i>
             </a>
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modelId">
