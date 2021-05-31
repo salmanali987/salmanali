@@ -223,20 +223,19 @@
               Screen Shots
             </button>
           </div>
-          <!-- <div class="resume-date text-md-right">
-            <span class="text-primary">Feburary 2017 - January 2021</span>
-          </div> -->
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0 low">Fruit and Vegetable Delivery App</h3>
+            <div class="mb-3 text">
+              Fruit and Vegetable Delivery
+            </div>
+            <a class="btn btn-primary" href="">Video Demo of Project
+              <i class="fab fa-youtube-f"></i>
+            </a>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modelId2">
+              Screen Shots
+            </button>
+          </div>
         </div>
-        <!-- <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">James Buchanan High School</h3>
-              <div class="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">August 2002 - May 2006</span>
-            </div>
-          </div> -->
       </div>
     </section>
     <style>
@@ -252,6 +251,51 @@
     </style>
     <!-- Modal -->
     <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title">IOT Based Home Security System</h2>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row container-fluid">
+              <div class="col-md-3">
+                <img src="img/ss1.png" alt="" width="250" height="500">
+              </div>
+              <div class="col-md-3">
+                <img src="img/ss2.png" alt="" width="250" height="500">
+              </div>
+              <div class="col-md-3">
+                <img src="img/ss3.png" alt="" width="250" height="500">
+              </div>
+              <div class="col-md-3">
+                <img src="img/ss4.png" alt="" width="250" height="500">
+              </div>
+            </div>
+            <div class="row container-fluid mt-5">
+              <div class="col-md-3">
+                <img src="img/ss5.png" alt="" width="250" height="500">
+              </div>
+              <div class="col-md-3">
+                <img src="img/ss6.png" alt="" width="250" height="500">
+              </div>
+              <div class="col-md-3">
+                <img src="img/ss1 (3).png" alt="" width="250" height="500">
+              </div>
+              <div class="col-md-3">
+                <img src="img/ss1 (4).png" alt="" width="250" height="500">
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="modal fade" id="modelId2" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
