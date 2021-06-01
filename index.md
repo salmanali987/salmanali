@@ -13,9 +13,7 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
@@ -60,7 +58,6 @@
       </ul>
     </div>
   </nav>
-
   <div class="container-fluid p-0">
     <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
       <div class="my-auto">
@@ -134,10 +131,10 @@
       <hr class="m-0"> -->
     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
       <div class="my-auto">
-        <h2 class="mb-5">Education</h2>
+        <h3 class="mb-5">Education</h3>
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
           <div class="resume-content mr-auto">
-            <h3 class="mb-0 low">Khwaja Fareed University of Engineering & Information Technology, Rahim Yar Khan</h3>
+            <h4 class="mb-0 low">Khwaja Fareed University of Engineering & Information Technology, Rahim Yar Khan</h4>
             <div class="subheading mb-3">Bachelor of Science in Computer Science (BSCS)</div>
             <p class="bold">GPA: 3.45</p>
           </div>
@@ -160,7 +157,7 @@
     <hr class="m-0">
     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
       <div class="my-auto">
-        <h2 class="mb-5">Skills</h2>
+        <h3 class="mb-5">Skills</h3>
         <div class="subheading mb-3">Programming Languages &amp; Tools</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
@@ -205,7 +202,7 @@
     <hr class="m-0">
     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
       <div class="my-auto">
-        <h2 class="mb-5">Projects</h2>
+        <h3 class="mb-4">Projects</h3>
         <div class="resume-item d-flex flex-column flex-md-row mb-5">
           <div class="resume-content mr-auto">
             <h3 class="mb-0 low">IOT Based Home Security App</h3>
@@ -215,6 +212,8 @@
               illegal person who want to do something wrong. To ensure performance and better security, a mobile
               application is developed. Easy to navigate user interface of app helps everyone to understand its flow and
               perofrm action more easily
+              <h6>Technologies</h6>
+              <p>Android || Firebase || Firebase Messaging [FCM] || Python ||OpenCv4 || face-recognition</p>
             </div>
             <a class="btn btn-primary" href="https://youtu.be/QZoeo6Lrdg4">Demo of Project
               <i class="fab fa-youtube-f"></i>
@@ -223,21 +222,54 @@
               Screen Shots
             </button>
           </div>
-          </div>
-          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
           <div class="resume-content mr-auto">
-            <h3 class="mb-0 low">Fruit and Vegetable Delivery App</h3>
+            <h3 class="mb-0 low">Fruit and Vegetable Delivery</h3>
+            <br>
             <div class="mb-3 text">
-              Fruit and Vegetable Delivery
+              Developed Fruit Delivery app on Android to purchase fruits and vegetable. App has three modules. 
+              <ul>
+                <li>Admin to manage stock of fruits and vegetable.</li>
+                <li>Rider to deliver the order to customer.</li>
+                <li>Buyer to purchase fruits and vegetable.</li>
+              </ul>
+              <h6>Technologies</h6>
+              <p>Android || Firebase</p>
+
             </div>
-            <a class="btn btn-primary" href="">Video Demo of Project
+            <!-- <a class="btn btn-primary" href="">Demo of Project
               <i class="fab fa-youtube-f"></i>
-            </a>
+            </a> -->
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modelId2">
               Screen Shots
             </button>
           </div>
-         </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0 low">Inventory System [Continue)</h3>
+            <br>
+            <div class="mb-3 text">
+              Developed Inventory app on Android to manage stock and sales for a local Shop in Ghalla Mandi. 
+              <ul>
+                <li>Manage Purchases.</li>
+                <li>Manage Sales.</li>
+                <li>Manage Stock.</li>
+                <li>Measure Profit loss</li>
+              </ul>
+              <h6>Technologies</h6>
+              <p>Android || SQlite with Room || MVVM Arcitchure || Dependency Injection using Dagger Hilt</p>
+
+            </div>
+            <!-- <a class="btn btn-primary" href="">Demo of Project
+              <i class="fab fa-youtube-f"></i>
+            </a> -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modelId3">
+              Screen Shots
+            </button>
+          </div>
+        </div>
       </div>
     </section>
     <style>
@@ -246,13 +278,22 @@
         height: 100%;
         margin: 1%;
       }
+
       .modal-content {
         width: 1200px;
         height: 1300px;
       }
-      .modalSize {
+
+      .modalSize2 {
         width: 1200px;
-        height: 2600px;
+        height: 3500px;
+        background-color: lightgray;
+      }
+
+      .modalSize3 {
+        width: 1200px;
+        height: 1300px;
+        background-color: lightgray;
       }
     </style>
     <!-- Modal -->
@@ -301,9 +342,10 @@
         </div>
       </div>
     </div>
-        <div class="modal fade" id="modelId2" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <!-- Modal -->
+    <div class="modal fade" id="modelId2" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
       <div class="modal-dialog" role="document">
-        <div class="modal-content modalSize">
+        <div class="modal-content modalSize2">
           <div class="modal-header">
             <h2 class="modal-title">Fruit and Vegetable Delivery</h2>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -321,11 +363,12 @@
               <div class="col-md-3">
                 <img src="img/ss2 (3).jpg" alt="" width="250" height="500">
               </div>
-              <div class="col-md-3">
-                <img src="img/ss2 (4).jpg" alt="" width="250" height="500">
-              </div>
+
             </div>
+            </br>
+            <h4>Customer Module</h4>
             <div class="row container-fluid mt-5">
+
               <div class="col-md-3">
                 <img src="img/ss2 (5).jpg" alt="" width="250" height="500">
               </div>
@@ -338,11 +381,17 @@
               <div class="col-md-3">
                 <img src="img/ss2 (8).jpg" alt="" width="250" height="500">
               </div>
-            </div>
-            <div class="row container-fluid mt-5">
               <div class="col-md-3">
                 <img src="img/ss2 (9).jpg" alt="" width="250" height="500">
               </div>
+              <div class="col-md-3">
+                <img src="img/ss2 (4).jpg" alt="" width="250" height="500">
+              </div>
+            </div>
+            </br>
+            <h4>Rider Section</h4>
+            <div class="row container-fluid mt-5">
+
               <div class="col-md-3">
                 <img src="img/ss2 (10).jpg" alt="" width="250" height="500">
               </div>
@@ -352,11 +401,14 @@
               <div class="col-md-3">
                 <img src="img/ss2 (12).jpg" alt="" width="250" height="500">
               </div>
-            </div>
-            <div class="row container-fluid mt-5">
               <div class="col-md-3">
                 <img src="img/ss2 (13).jpg" alt="" width="250" height="500">
               </div>
+            </div>
+            </br>
+            <h4>Admin Section</h4>
+            <div class="row container-fluid mt-5">
+
               <div class="col-md-3">
                 <img src="img/ss2 (14).jpg" alt="" width="250" height="500">
               </div>
@@ -365,6 +417,70 @@
               </div>
               <div class="col-md-3">
                 <img src="img/ss2 (16).jpg" alt="" width="250" height="500">
+              </div>
+              <div class="col-md-3">
+                <img src="img/ss2 (17).jpg" alt="" width="250" height="500">
+              </div>
+            </div>
+            <div class="row container-fluid mt-5">
+
+              <div class="col-md-3">
+                <img src="img/ss2 (18).jpg" alt="" width="250" height="500">
+              </div>
+              <div class="col-md-3">
+                <img src="img/ss2 (20).jpg" alt="" width="250" height="500">
+              </div>
+              <div class="col-md-3">
+                <img src="img/ss2 (21).jpg" alt="" width="250" height="500">
+              </div>
+              <div class="col-md-3">
+                <img src="img/ss2 (22).jpg" alt="" width="250" height="500">
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="modelId3" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content modalSize3">
+          <div class="modal-header">
+            <h2 class="modal-title">Inventory App</h2>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row container-fluid">
+              <div class="col-md-3">
+                <img src="img/ss3.jpg" alt="" width="250" height="500">
+              </div>
+              <div class="col-md-3">
+                <img src="img/ss3 (7).jpg" alt="" width="250" height="500">
+              </div>
+              <div class="col-md-3">
+                <img src="img/ss3 (1).jpg" alt="" width="250" height="500">
+              </div>
+              <div class="col-md-3">
+                <img src="img/ss3 (2).jpg" alt="" width="250" height="500">
+              </div>
+            </div>
+            <div class="row container-fluid mt-5">
+              <div class="col-md-3">
+                <img src="img/ss3 (3).jpg" alt="" width="250" height="500">
+              </div>
+              <div class="col-md-3">
+                <img src="img/ss3 (4).jpg" alt="" width="250" height="500">
+              </div>
+              <div class="col-md-3">
+                <img src="img/ss3 (5).jpg" alt="" width="250" height="500">
+              </div>
+              <div class="col-md-3">
+                <img src="img/ss3 (6).jpg" alt="" width="250" height="500">
               </div>
             </div>
           </div>
