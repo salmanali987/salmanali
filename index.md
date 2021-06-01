@@ -223,6 +223,7 @@
               Screen Shots
             </button>
           </div>
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
           <div class="resume-content mr-auto">
             <h3 class="mb-0 low">Fruit and Vegetable Delivery App</h3>
             <div class="mb-3 text">
@@ -236,6 +237,7 @@
             </button>
           </div>
         </div>
+         </div>
       </div>
     </section>
     <style>
@@ -307,30 +309,58 @@
           <div class="modal-body">
             <div class="row container-fluid">
               <div class="col-md-3">
-                <img src="img/ss1.png" alt="" width="250" height="500">
+                <img src="img/ss2 (1).jpg" alt="" width="250" height="500">
               </div>
               <div class="col-md-3">
-                <img src="img/ss2.png" alt="" width="250" height="500">
+                <img src="img/ss2 (2).jpg" alt="" width="250" height="500">
               </div>
               <div class="col-md-3">
-                <img src="img/ss3.png" alt="" width="250" height="500">
+                <img src="img/ss2 (3).jpg" alt="" width="250" height="500">
               </div>
               <div class="col-md-3">
-                <img src="img/ss4.png" alt="" width="250" height="500">
+                <img src="img/ss2 (4).jpg" alt="" width="250" height="500">
               </div>
             </div>
             <div class="row container-fluid mt-5">
               <div class="col-md-3">
-                <img src="img/ss5.png" alt="" width="250" height="500">
+                <img src="img/ss2 (5).jpg" alt="" width="250" height="500">
               </div>
               <div class="col-md-3">
-                <img src="img/ss6.png" alt="" width="250" height="500">
+                <img src="img/ss2 (6).jpg" alt="" width="250" height="500">
               </div>
               <div class="col-md-3">
-                <img src="img/ss1 (3).png" alt="" width="250" height="500">
+                <img src="img/ss2 (7).jpg" alt="" width="250" height="500">
               </div>
               <div class="col-md-3">
-                <img src="img/ss1 (4).png" alt="" width="250" height="500">
+                <img src="img/ss2 (8).jpg" alt="" width="250" height="500">
+              </div>
+            </div>
+            <div class="row container-fluid mt-5">
+              <div class="col-md-3">
+                <img src="img/ss2 ().jpg" alt="" width="250" height="500">
+              </div>
+              <div class="col-md-3">
+                <img src="img/ss2 (10).jpg" alt="" width="250" height="500">
+              </div>
+              <div class="col-md-3">
+                <img src="img/ss2 (11).jpg" alt="" width="250" height="500">
+              </div>
+              <div class="col-md-3">
+                <img src="img/ss2 (12).jpg" alt="" width="250" height="500">
+              </div>
+            </div>
+            <div class="row container-fluid mt-5">
+              <div class="col-md-3">
+                <img src="img/ss2 (13).jpg" alt="" width="250" height="500">
+              </div>
+              <div class="col-md-3">
+                <img src="img/ss2 (14).jpg" alt="" width="250" height="500">
+              </div>
+              <div class="col-md-3">
+                <img src="img/ss2 (15).jpg" alt="" width="250" height="500">
+              </div>
+              <div class="col-md-3">
+                <img src="img/ss2 (16).jpg" alt="" width="250" height="500">
               </div>
             </div>
           </div>
