@@ -223,6 +223,7 @@
               Screen Shots
             </button>
           </div>
+          </div>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
           <div class="resume-content mr-auto">
             <h3 class="mb-0 low">Fruit and Vegetable Delivery App</h3>
@@ -236,7 +237,6 @@
               Screen Shots
             </button>
           </div>
-        </div>
          </div>
       </div>
     </section>
@@ -249,6 +249,10 @@
       .modal-content {
         width: 1200px;
         height: 1300px;
+      }
+      .modalSize {
+        width: 1200px;
+        height: 2600px;
       }
     </style>
     <!-- Modal -->
@@ -299,9 +303,9 @@
     </div>
         <div class="modal fade" id="modelId2" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
       <div class="modal-dialog" role="document">
-        <div class="modal-content">
+        <div class="modal-content modalSize">
           <div class="modal-header">
-            <h2 class="modal-title">IOT Based Home Security System</h2>
+            <h2 class="modal-title">Fruit and Vegetable Delivery</h2>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -337,7 +341,7 @@
             </div>
             <div class="row container-fluid mt-5">
               <div class="col-md-3">
-                <img src="img/ss2 ().jpg" alt="" width="250" height="500">
+                <img src="img/ss2 (9).jpg" alt="" width="250" height="500">
               </div>
               <div class="col-md-3">
                 <img src="img/ss2 (10).jpg" alt="" width="250" height="500">
