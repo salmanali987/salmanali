@@ -15,7 +15,9 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -44,34 +46,16 @@
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Lonely</h1>
+        <h1 class="sitename">Salman Ali</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html#hero">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#portfolio">Portfolio</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -120,23 +104,7 @@
                 }
               </script>
 
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/app-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/product-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/branding-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/books-1.jpg" alt="">
-                </div>
+              <div class="swiper-wrapper align-items-center" id="slider">
 
               </div>
               <div class="swiper-pagination"></div>
@@ -147,16 +115,22 @@
             <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li>
+                  <h4 id="title"></h4>
+                </li>
+                <li>
+                  <p id="subtitle"></p>
+                </li>
+                <li><strong>Project URL</strong>: <a href="#" id="link"></a></li>
               </ul>
             </div>
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Exercitationem repudiandae officiis neque suscipit</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+              <h2 id="title2">Exercitationem repudiandae officiis neque suscipit</h2>
+              <p id="description">
+                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia.
+                Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia
+                accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt
+                eius.
               </p>
             </div>
           </div>
@@ -171,8 +145,8 @@
 
   <footer id="footer" class="footer light-background">
     <div class="container">
-      <h3 class="sitename">Lonely</h3>
-      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+      <h3 class="sitename">Salman Ali</h3>
+      <p>Mobile App Developer</p>
       <div class="social-links d-flex justify-content-center">
         <a href=""><i class="bi bi-twitter-x"></i></a>
         <a href=""><i class="bi bi-facebook"></i></a>
@@ -182,21 +156,22 @@
       </div>
       <div class="container">
         <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Lonely</strong> <span>All Rights Reserved</span>
+          <span>Copyright</span> <strong class="px-1 sitename">Salman Ali</strong> <span>All Rights Reserved</span>
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you've purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
         </div>
       </div>
     </div>
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
@@ -213,6 +188,137 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    const params=new URLSearchParams(window.location.search);
+    const page=params.get("p");
+
+    const container=document.querySelector("#slider");
+    var images=[]
+    if (page == 1) {
+      images=[
+        "img/v1.jpg",
+        "img/v2.jpg",
+        "img/v3.jpg",
+        "img/v4.jpg",
+        "img/v5.jpg"
+      ];
+      document.getElementById("title").textContent="Video Background Changer";
+      document.getElementById("title2").textContent="Video Background Changer";
+      document.getElementById("subtitle").textContent="Change Video Background and Edit Video";
+      document.getElementById("description").textContent="Convert Image to Video Through Ai";
+      document.getElementById("link").textContent="Click here - Play Store link";
+      document.getElementById("link").href="https://play.google.com/store/apps/details?id=com.ck.ai.video.background.changer.remover";
+    } else if (page == 2) {
+      images=[
+        "img/e1.jpg",
+        "img/e2.jpg",
+        "img/e3.jpg",
+      ];
+      document.getElementById("title").textContent="Pixel- Ai Video Effect";
+      document.getElementById("title2").textContent="Pixel- Ai Video Effect";
+      document.getElementById("subtitle").textContent="Convert Image to Video Through Ai";
+      document.getElementById("description").textContent="Convert Image to Video Through Ai";
+      document.getElementById("link").textContent="Click here - Play Store link";
+      document.getElementById("link").href="https://play.google.com/store/apps/details?id=com.pixel.video.effects.ai.generator";
+    } else if (page == 3) {
+      images=[
+        "img/va1.jpg",
+        "img/va3.jpg",
+        "img/va3.jpg",
+        "img/va4.jpg",
+        "img/va5.jpg",
+      ];
+      document.getElementById("title").textContent="Visily Ai";
+      document.getElementById("title2").textContent="Visily Ai";
+      document.getElementById("subtitle").textContent="Multifuctional Ai Photo Enhancer and Editor";
+      document.getElementById("description").textContent="Multifuctional Ai Photo Enhancer and Editor";
+      document.getElementById("link").textContent="Comming Soon";
+      document.getElementById("link").href="";
+    } else if (page == 4) {
+      images=[
+        "img/t1.jpg",
+        "img/t2.jpg",
+        "img/t3.jpg",
+      ];
+      document.getElementById("title").textContent="All Langauge Translator";
+      document.getElementById("title2").textContent="All Langauge Translator";
+      document.getElementById("subtitle").textContent="Language Translator with Audio, Text, Image and File Translation";
+      document.getElementById("description").textContent="Language Translator with Audio, Text, Image and File Translation";
+      document.getElementById("link").textContent="Click here - Play Store link";
+      document.getElementById("link").href="https://play.google.com/store/apps/details?id=com.wiki.image.text.speech.translator";
+    } else if (page == 5) {
+      images=[
+        "img/s1.jpg",
+        "img/s2.jpg",
+        "img/s3.jpg",
+        "img/s4.jpg",
+        "img/s5.jpg",
+        "img/s6.jpg",
+      ];
+      document.getElementById("title").textContent="Scan Me";
+      document.getElementById("title2").textContent="Scan Me";
+      document.getElementById("subtitle").textContent="Digital Loyalty Program App Saas";
+      document.getElementById("description").textContent="Digital Loyalty Program App Saas";
+      document.getElementById("link").textContent="";
+      document.getElementById("link").href="https://scan-me.uk/";
+    }  else if (page == 6) {
+      images=[
+        "img/i1.jpg",
+        "img/i2.jpg",
+        "img/i3.jpg",
+        "img/i4.jpg",
+        "img/i5.jpg",
+      ];
+      document.getElementById("title").textContent="Inventory Management App";
+      document.getElementById("title2").textContent="Inventory Management App";
+      document.getElementById("subtitle").textContent="Sale, Purchase and Stock Management App";
+      document.getElementById("description").textContent="Sale, Purchase and Stock Management App";
+      document.getElementById("link").textContent="";
+      document.getElementById("link").href="";
+    } else if (page == 7) {
+      images=[
+        "img/ec1.jpg",
+        "img/ec2.jpg",
+        "img/ec3.jpg",
+        "img/ec4.jpg",
+        "img/ec5.jpg",
+      ];
+      document.getElementById("title").textContent="Ecs Courier App";
+      document.getElementById("title2").textContent="Ecs Courier App";
+      document.getElementById("subtitle").textContent="Courier App for Excellent Courier Service";
+      document.getElementById("description").textContent="Courier App for Excellent Courier Service";
+      document.getElementById("link").textContent="";
+      document.getElementById("link").href="";
+    } else if (page == 8) {
+      images=[
+        "img/.jpg",
+      ];
+      document.getElementById("title").textContent="Home Security System";
+      document.getElementById("title2").textContent="Home Security System";
+      document.getElementById("subtitle").textContent="Home Security Android App + ML Based Backend with live threats Monitering";
+      document.getElementById("description").textContent="Home Security Android App + ML Based Backend with live threats Monitering";
+      document.getElementById("link").textContent="Click here - Project Demo";
+      document.getElementById("link").href="https://youtu.be/QZoeo6Lrdg4";
+    }
+
+
+    images.forEach(src => {
+      const newDiv=document.createElement("div");
+      newDiv.classList.add("swiper-slide");
+
+      const img=document.createElement("img");
+      img.src=src;
+      img.alt=src + " image";
+
+      newDiv.appendChild(img);
+      container.appendChild(newDiv);
+    });
+
+
+    // Create a new div
+
+  </script>
 
 </body>
 
